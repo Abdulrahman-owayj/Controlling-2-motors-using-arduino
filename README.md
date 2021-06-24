@@ -6,12 +6,15 @@ I used an Arduino as a controller and 9V battery as a supply and L239D driver to
 
 Circuit diagram on tinkercad: https://www.tinkercad.com/things/7Id1rZ4bsQd-daring-fulffy/editel?tenant=circuits
 
-![Alt text](relative/path/to/img.jpg?raw=true "control 2 motors diagram.png")
+Diagram preview:
+
+![control 2 motors diagram](https://user-images.githubusercontent.com/5675794/123260871-c1045380-d4fe-11eb-832a-3799a32160dd.png)
+
 
 The code of the project 
 
 ```ruby
-//difine the pin numbers
+// difine the pin numbers
 int enable = 13;
 int input1 = 9;
 int input2 = 10;
@@ -40,7 +43,7 @@ void setup()
 void loop()
 {
 
-  //codition to move forward
+  // condition to move forward  
   if (digitalRead(buttonForward) == HIGH)
   {
     int motorSpeed = speed();          // get the motor speed set by user
@@ -51,7 +54,7 @@ void loop()
     analogWrite(input4, motorSpeed);   // use pmw to move the motor with spicific speed
   }
   
-  // condition to move backward
+  // condition to move backward  
    else if (digitalRead(buttonBackward) == HIGH)
    {
    int motorSpeed = speed();        // get the motor speed set by user
