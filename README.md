@@ -6,7 +6,7 @@ I used an Arduino as a controller and 9V battery as a supply and L239D driver to
 
 Circuit diagram on tinkercad: https://www.tinkercad.com/things/7Id1rZ4bsQd-daring-fulffy/editel?tenant=circuits
 
-![Alt text](relative/path/to/img.jpg?raw=true "control 2 motors using arduino")
+![Alt text](relative/path/to/img.jpg?raw=true "control 2 motors diagram")
 
 The code of the project 
 
